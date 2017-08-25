@@ -1,0 +1,117 @@
+html{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    background: #fff;
+    width: 100%;
+    height: 100%;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-wrapper .swiper-slide{
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.a1{
+    background-image: url(../img/01.png);
+}
+.a2{
+    background-image: url(../img/02.png);
+}
+.a3{
+    background-image: url(../img/03.png);
+}
+.a4{
+    background-image: url(../img/04.png);
+}
+.a5{
+    background-image: url(../img/05.png);
+}
+.a6{
+    background-image: url(../img/06.png);
+}
+#arrow{ width:40px; height:10px; background:url(../img/arrr.png) no-repeat; background-size: cover; position:absolute; z-index: 100; left:50%; bottom:5px; margin-left:-20px; z-index:8; animation:1s infinite arrowMove; -webkit-animation:1s infinite arrowMove;}
+@keyframes arrowMove{
+    0%{ opacity:0; transform:translate(0,0);}
+    50%{ opacity:1; transform:translate(0,-10px);}
+    100%{ opacity:0; transform:translate(0,-20px);}
+}
+@-webkit-keyframes arrowMove{
+    0%{ opacity:0; -webkit-transform:translate(0,0);}
+    50%{ opacity:1; -webkit-transform:translate(0,-10px);}
+    100%{ opacity:0; -webkit-transform:translate(0,-20px);}
+}
+/*#music{ width:30px; height:30px; background:url(../img/music_note_big.png) no-repeat; background-size:cover; position:absolute; top:20px; right:20px; z-index:8;}*/
+/*#music.active{ animation:1s linear infinite musicMove; -webkit-animation:1s linear infinite musicMove;}*/
+/*@keyframes musicMove{*/
+    /*0%{ transform:rotate(0deg);}*/
+    /*100%{ transform:rotate(360deg);}*/
+/*}*/
+/*@-webkit-keyframes musicMove{*/
+    /*0%{ -webkit-transform:rotate(0deg);}*/
+    /*100%{ -webkit-transform:rotate(360deg);}*/
+/*}*/
+/*.erweimaone{*/
+    /*width: 50%;*/
+    /*position: absolute;*/
+    /*left: 50%;*/
+    /*margin-left: -25%;*/
+    /*bottom:52%;*/
+/*}*/
+
+.erweimatwo{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    margin-left: -25%;
+    margin-top: -25%;
+    top:50%;
+}
+.anniu{
+    width: 50%;
+    position: absolute;
+    left: 50%;
+    margin-left: -25%;
+    top:84%;
+}
+.erweimaone{
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    margin-left: -15%;
+    top:62%;
+}
+.tankuang1{
+    width: 100%;
+    height: 100%;
+    min-height: 500px;
+    position: absolute;
+    left: 0;
+    top:0;
+    display: none;
+}
